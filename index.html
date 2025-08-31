@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishnu Priya C | Front-End Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif;}
+    html {scroll-behavior: smooth;}
+    body {background: linear-gradient(135deg,#f6d365,#fda085); color:#333;}
+
+    /* Header */
+    header {text-align:center; padding:60px 20px; color:#fff;}
+    header h1 {font-size:3em; margin-bottom:10px;}
+    header p {font-size:1.2em; color:#fffdd0;}
+    .btn-primary {
+      display:inline-block; padding:12px 25px; margin-top:15px;
+      background:#f76c6c; color:#fff; border-radius:30px; text-decoration:none;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {background:#ff3b2e;}
+
+    /* Navigation */
+    nav {text-align:center; margin-bottom:40px;}
+    nav a {margin:0 15px; text-decoration:none; color:#fff; font-weight:600; transition:0.3s;}
+    nav a:hover {color:#333;}
+
+    /* Section Titles */
+    .section-title {text-align:center; font-size:2em; margin:50px 0 30px; color:#fff;}
+
+    /* Cards */
+    .cards {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:25px; padding:0 20px;}
+    .card {
+      background:#fff; border-radius:15px; padding:25px; box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s; position:relative; overflow:hidden;
+    }
+    .card:hover {transform:translateY(-10px); box-shadow:0 10px 25px rgba(0,0,0,0.2);}
+    .card img {width:100%; border-radius:10px; margin-bottom:15px;}
+    .card h3 {color:#f76c6c; margin-bottom:10px;}
+    .card p {line-height:1.6; color:#555;}
+    .card a {display:inline-block; margin-top:15px; padding:10px 20px; background:#f76c6c; color:#fff; border-radius:8px; text-decoration:none; transition:0.3s;}
+    .card a:hover {background:#ff3b2e;}
+
+    /* Contact */
+    .contact {text-align:center; margin:50px 20px;}
+    .contact a {display:inline-block; margin:10px; text-decoration:none; color:#fff; background:#f76c6c; padding:12px 20px; border-radius:25px; transition:0.3s;}
+    .contact a:hover {background:#ff3b2e;}
+
+    /* Footer */
+    footer {text-align:center; padding:30px; color:#fff; background:rgba(0,0,0,0.2); margin-top:50px;}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Vishnu Priya C</h1>
+    <p>Front-End Developer | Internship & Industrial Exposure Portfolio</p>
+    <!-- Download Resume Button -->
+    <a href="resume.pdf" download class="btn-primary">Download Resume</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Projects Section -->
+  <h2 class="section-title" id="projects">Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Portfolio+Website" alt="Portfolio Website">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio using HTML, CSS, and JS to showcase projects and internships with interactive UI.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Task+Manager" alt="Task Manager App">
+      <h3>Task Management App</h3>
+      <p>React-based task manager app with CRUD, local storage, and responsive UI design for desktop and mobile.</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Weather+App" alt="Weather App">
+      <h3>Weather App</h3>
+      <p>JavaScript weather app using APIs to fetch real-time weather data and dynamic UI updates.</p>
+      <a href="#">View Project</a>
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+  <h2 class="section-title" id="experience">Internship & Industrial Exposure</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Front-End Internship - ABC Tech</h3>
+      <p>Developed user-friendly interfaces, improved page performance, and created responsive web pages using React and CSS frameworks.</p>
+      <a href="#">Details</a>
+    </div>
+    <div class="card">
+      <h3>Industrial Training - XYZ Solutions</h3>
+      <p>Exposed to cloud technologies, web design best practices, and Agile workflow. Contributed to UI enhancement projects.</p>
+      <a href="#">Details</a>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <h2 class="section-title" id="contact">Contact</h2>
+  <div class="contact">
+    <a href="mailto:vishnupriya@example.com">Email Me</a>
+    <a href="https://www.linkedin.com/in/vishnupriya" target="_blank">LinkedIn</a>
+    <a href="https://github.com/vishnupriya" target="_blank">GitHub</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Vishnu Priya C | Front-End Developer
+  </footer>
+
+</body>
+</html>
